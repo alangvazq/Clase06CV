@@ -6,6 +6,10 @@
   border: solid 0px yellow;
   margin: 0px;
   box-sizing: border-box;
+  background-image: url('../img/banner.jpg');
+  background-position: center center;
+  background-size: 100%;
+  
 
   padding: 20.91px 670px;
 }
@@ -13,7 +17,7 @@
 h1 {
   color: #005677;
   font-feature-settings: "cpsp" on;
-  font-family: Times New Roman;
+  font-family: 'Raleway', sans-serif;
   font-size: 35px;
   font-style: normal;
   font-weight: 700;
@@ -33,7 +37,7 @@ h1 {
 h2 {
   color: #005677;
   font-feature-settings: "cpsp" on;
-  font-family: Times New Roman;
+  font-family: 'Raleway', sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 700;
@@ -46,12 +50,12 @@ h2 {
   flex-shrink: 0;
   margin: 0px;
   box-sizing: border-box;
-  padding: 6px;
+  padding: 7px;
 }
 
 ul {
   color: #000;
-  font-family: Times New Roman;
+  font-family: 'Lato', sans-serif;
   font-size: 15px;
   font-style: normal;
   font-weight: 400;
@@ -60,7 +64,7 @@ ul {
 
 span {
   color: #000;
-  font-family: Times New Roman;
+  font-family: 'Lato', sans-serif;
   font-size: 15px;
   font-style: normal;
   font-weight: 700;
@@ -73,7 +77,7 @@ ul.datos-personales span {
 
 .footer {
   color: #fff;
-  font-family: Times New Roman;
+  font-family: 'Raleway', sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 700;
@@ -90,5 +94,27 @@ ul.datos-personales span {
 }
 
 .sangria {
-  text-indent: 5em;
+  text-indent: 5.5em;
+}
+
+nav{
+  box-sizing: border-box;
+  width: 1440px;
+  height: 45px;
+  background-color: rgb(178, 200, 255);
+  text-transform: uppercase;
+
+  padding: 18px;
+  margin: 5px;
+
+  color: #000;
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 10px;
+}
+
+.none{
+  text-decoration: none;
 }
